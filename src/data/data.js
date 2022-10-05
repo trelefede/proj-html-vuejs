@@ -1,8 +1,8 @@
-const headerData = [
+export const headerData = [
     Home, About, Services, Blog, Contact, Portfolio
 ];
 
-const footerData = [
+export const footerData = [
     {
         title: "Quick Links",
         info: ["Services", "Contact", "Blog"]
