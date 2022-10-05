@@ -1,5 +1,5 @@
 export const headerData = [
-    Home, About, Services, Blog, Contact, Portfolio
+    "Home", "About", "Services", "Blog", "Contact", "Portfolio"
 ];
 
 export const footerData = [
