@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: #5f5f5f;
+}
+
 .ft-btn {
     padding-top: 0.65rem;
     padding-bottom: 0.65rem;
@@ -30,4 +34,8 @@ a {
     background: rgb(183, 36, 109);
     background: linear-gradient(90deg, rgba(183, 36, 109, 1) 0%, rgba(212, 65, 108, 1) 50%, rgba(247, 97, 107, 1) 100%);
     color: white;
+}
+
+.ft-color-red {
+    color: #f9636b;
 }
