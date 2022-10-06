@@ -1,5 +1,5 @@
 <template>
-    <header class="ft-bg-light-blue">
+    <header class="ft-bg-blue">
         <div class="container">
 
             <!-- navbar with logo, site links and user sign in -->
@@ -16,7 +16,7 @@
                         </ul>
                     </div>
                     <div class="ms-4">
-                        <a class="btn rounded-pill ft-btn-light-blue" href="#" role="button">Sign In</a>
+                        <a class="btn rounded-pill ft-btn ft-bg-light-blue" href="#" role="button">Sign In</a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ft-btn-light-blue{
+.ft-btn{
     padding-right: 1.3rem;
     padding-left: 1.3rem;
 }
