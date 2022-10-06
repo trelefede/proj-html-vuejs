@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container-lg">
         <!-- heading section  -->
         <div class="row">
             <div class="col-12 text-center">
