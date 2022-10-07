@@ -2,13 +2,14 @@
     <div>
         <div class="card ft-card position-relative text-center" :class="cards.title === 'Developing' ? 'ft-bg-light-red' : ''" >
             <div class="card-body mx-4">
-                <h5 class="text-dark fs-2 fw-bold"> {{ cards.title }} </h5>
+                <h5 class="text-dark fs-2 fw-bold mt-4"> {{ cards.title }} </h5>
                 <h6 class="text-dark mb-4 mt-3"> {{ cards.subtitle.toUpperCase() }} </h6>
                 <span class="text-dark ft-price-type d-block mt-2">$</span>
                 <h6 class="ft-price text-dark fw-bold mb-2"> {{ cards.price }} </h6>
                 <span class="ft-price-bg" :class="cards.title === 'Developing' ? 'ft-bg-red' : ''" > {{ cards.price }} </span>
-                <span class="text-dark"> {{ cards.billing }} </span>
-                <CardFeaturesComponent :feature="cards.features" />
+                <span class="text-dark "> {{ cards.billing }} </span>
+                <CardFeaturesComponent :feature="cards.features" class="my-4"/>
+                <a class="btn rounded-pill ft-btn ft-bg-light-red my-4" href="#">Order Now</a>
             </div>
         </div>
     </div>
@@ -31,8 +32,10 @@ export default {
 <style lang="scss" scoped>
 .ft-card{
     z-index: 9999;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
     border-radius: 1.75rem;
+    box-shadow: 1px -1px 70px 0px rgb(24 24 24 / 22%);
 }
 
 .ft-price{
@@ -54,5 +57,9 @@ export default {
 
 h6{
     font-size: 0.8rem;
+}
+
+a{
+    box-shadow: 1px -1px 70px 0px rgba(232, 43, 43, 0.483);
 }
 </style>

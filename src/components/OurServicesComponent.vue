@@ -59,6 +59,6 @@ p{
 }
 
 a{
-    box-shadow: 1px -1px 70px 0px rgba(232,43,43,0.66);;
+    box-shadow: 1px -1px 70px 0px rgba(232, 43, 43, 0.483);
 }
 </style>

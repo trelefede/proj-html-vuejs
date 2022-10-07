@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div :class="feature.id === 1 ? 'ft-text-white' : '' ">
         <p><span>Creative</span> {{ feature.creative }} </p>
         <p><span>Vibrant</span> {{ feature.vibrant }} </p>
         <p><span>Eye</span> {{ feature.eye }} </p>
@@ -18,6 +18,11 @@ export default {
 </script>
 
 <style lang="scss" scoped> 
+.ft-text-white{
+    
+   
+}
+
 p{
     font-size: 0.9rem;
 }

@@ -54,6 +54,7 @@ export const priceListCardData = [
         billing: "Per Month",
         features:
         {
+            id: 0,
             creative: "Design Enabled",
             vibrant: "Color Usage",
             eye: "Catching Design",
@@ -68,6 +69,7 @@ export const priceListCardData = [
         billing: "Per Month",
         features:
         {
+            id: 1,
             creative: "Design Enabled",
             vibrant: "Color Usage",
             eye: "Catching Design",
@@ -82,6 +84,7 @@ export const priceListCardData = [
         billing: "Per Month",
         features:
         {
+            id: 2,
             creative: "Design Enabled",
             vibrant: "Color Usage",
             eye: "Catching Design",
