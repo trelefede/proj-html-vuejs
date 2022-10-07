@@ -1,6 +1,6 @@
 <template>
     <div class="start-project ft-bg-blue">
-        <div class="container-lg">
+        <div class="container">
             <div class="row align-items-center py-4 d-flex flex-row-reverse">
                 <div class="col-6">
                     <p class="text-white">Start Your Project</p>

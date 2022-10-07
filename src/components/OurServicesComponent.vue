@@ -9,29 +9,16 @@
             </div>
         </div>
 
-            <!-- content section -->
+            <!-- content section create by data.js-->
         <div class="row ft-content">
-            <div class="col-3 text-center">
-                <img src="@/assets/images/Group-247.png" alt="data analisys">
-                <h4 class="fw-bold pb-3">Data Analysis</h4>
-                <p class="fs-6 px-4">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="@/assets/images/Group-567.png" alt="data analisys">
-                <h4 class="fw-bold pb-3">SEO Optimization</h4>
-                <p class="fs-6 px-4">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="@/assets/images/Group-538.png" alt="data analisys">
-                <h4 class="fw-bold pb-3">Security Data</h4>
-                <p class="fs-6 px-4">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="@/assets/images/Group-566.png" alt="data analisys">
-                <h4 class="fw-bold pb-3">Branding Strategy</h4>
-                <p class="fs-6 px-4">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper</p>
+            <div class="col-3 text-center" v-for="data in ourServicesData" :key="data.title">
+                <img :src="require (`@/assets${data.img}`)" :alt="data.title">
+                <h4 class="fw-bold pb-3"> {{ data.title }} </h4>
+                <p class="fs-6 px-4"> {{ data.info }} </p>
             </div>
         </div>
+
+            <!-- button -->
         <div class="row">
             <div class="col-12 text-center mb-4 pb-4">
                 <a class="btn rounded-pill ft-btn ft-bg-light-red mb-4" href="#">View All Services</a>
@@ -41,11 +28,16 @@
 </template>
 
 <script>
+import { ourServicesData } from "@/data/data.js"
+
 
 export default {
     name: "OurServicesComponent",
-    components: {
-    }
+    data(){
+        return {
+            ourServicesData
+        }
+    },
 }
 </script>
 

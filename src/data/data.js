@@ -22,3 +22,26 @@ export const footerData = [
         ]
     }
 ];
+
+export const ourServicesData = [
+    {
+        img: "/images/Group-247.png",
+        title: "Data Analysis",
+        info: "When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper"
+    },
+    {
+        img: "/images/Group-567.png",
+        title: "SEO Optimization",
+        info: "When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper"
+    },
+    {
+        img: "/images/Group-538.png",
+        title: "Security Data",
+        info: "When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper"
+    },
+    {
+        img: "/images/Group-566.png",
+        title: "Branding Strategy",
+        info: "When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper"
+    },
+];
