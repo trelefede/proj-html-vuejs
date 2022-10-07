@@ -45,3 +45,48 @@ export const ourServicesData = [
         info: "When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper"
     },
 ];
+
+export const priceListCardData = [
+    {
+        title: "Designing",
+        subtitle: "process",
+        price: "40",
+        billing: "Per Month",
+        features:
+        {
+            creative: "Design Enabled",
+            vibrant: "Color Usage",
+            eye: "Catching Design",
+            extreme: "Typography",
+            exceptional: "Design",
+        }
+    },
+    {
+        title: "Developing",
+        subtitle: "product",
+        price: "60",
+        billing: "Per Month",
+        features:
+        {
+            creative: "Design Enabled",
+            vibrant: "Color Usage",
+            eye: "Catching Design",
+            extreme: "Typography",
+            exceptional: "Design",
+        }
+    },
+    {
+        title: "Designing",
+        subtitle: "clients",
+        price: "80",
+        billing: "Per Month",
+        features:
+        {
+            creative: "Design Enabled",
+            vibrant: "Color Usage",
+            eye: "Catching Design",
+            extreme: "Typography",
+            exceptional: "Design",
+        }
+    },
+];

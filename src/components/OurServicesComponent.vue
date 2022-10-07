@@ -1,5 +1,6 @@
 <template>
-    <div class="container-lg">
+    <div class="container">
+        
         <!-- heading section  -->
         <div class="row">
             <div class="col-12 text-center">
@@ -9,7 +10,7 @@
             </div>
         </div>
 
-            <!-- content section create by data.js-->
+        <!-- content section create by data.js-->
         <div class="row ft-content">
             <div class="col-3 text-center" v-for="data in ourServicesData" :key="data.title">
                 <img :src="require (`@/assets${data.img}`)" :alt="data.title">
@@ -18,7 +19,7 @@
             </div>
         </div>
 
-            <!-- button -->
+        <!-- button -->
         <div class="row">
             <div class="col-12 text-center mb-4 pb-4">
                 <a class="btn rounded-pill ft-btn ft-bg-light-red mb-4" href="#">View All Services</a>
