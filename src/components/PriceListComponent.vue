@@ -13,7 +13,7 @@
 
             <!-- content section create by data.js-->
             <div class="row">
-                <PriceListCardComponent class="col-4" v-for="cardData in priceListCardData" :key="cardData.title" :cards="cardData" />
+                <PriceListCardComponent class="col-4" v-for="cardData in priceListData" :key="cardData.title" :cards="cardData" />
             </div>
         </div>
     </div>
@@ -23,13 +23,13 @@
 <script>
 import PriceListCardComponent from "@/components/PriceListCardComponent.vue"
 
-import { priceListCardData } from "@/data/data.js"
+import { priceListData } from "@/data/data.js"
 
 export default {
     name: "PriceListComponent",
     data(){
         return {
-            priceListCardData
+            priceListData
         }
     },
     components: {

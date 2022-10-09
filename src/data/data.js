@@ -46,7 +46,7 @@ export const ourServicesData = [
     },
 ];
 
-export const priceListCardData = [
+export const priceListData = [
     {
         title: "Designing",
         subtitle: "process",
@@ -94,7 +94,7 @@ export const priceListCardData = [
     },
 ];
 
-export const blogCardData = [
+export const blogData = [
     {
         id: 0,
         date: 'April 21, 2019',
