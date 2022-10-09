@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row">
-            <TestimonialCardComponent />
+            <TestimonialCardComponent v-for="card in testimonialData" :key="card.id" :card="card" />
         </div>
     </div>
 </template>
@@ -17,8 +17,15 @@
 <script>
 import TestimonialCardComponent from "@/components/TestimonialCardComponent.vue"
 
+import { testimonialData } from "@/data/data.js"
+
 export default {
     name: "TestimonialComponent",
+    data(){
+        return {
+            testimonialData
+        }
+    },
     components: { 
         TestimonialCardComponent
     },
