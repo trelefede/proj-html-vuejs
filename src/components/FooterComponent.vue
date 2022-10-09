@@ -1,12 +1,17 @@
 <template>
     <footer>
-
+        <SubscribeComponent />
     </footer>
 </template>
 
 <script>
+import SubscribeComponent from "@/components/SubscribeComponent.vue"
+
 export default {
-    name: "FooterComponent"
+    name: "FooterComponent",
+    components: {
+        SubscribeComponent
+    }
 }
 </script>
 
