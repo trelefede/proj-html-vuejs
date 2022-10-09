@@ -27,7 +27,7 @@ export default {
         PriceListComponent,
         BlogComponent,
         TestimonialComponent,
-        ClientlyComponent,
+        ClientlyComponent
     }
 }
 </script>

@@ -132,18 +132,22 @@ export const testimonialData = [
     {
         id: 1,
         img: 'philipe-cavalcante-539505-unsplash-1024x1024.png',
-        fullStars: 3,
-        emptyStars: 2,
+        fullStars: [0, 1, 2],
+        emptyStars: [0, 1],
         review: 'When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper impenetrable follage on my trees, and but a thousand',
         author: 'Michkel Anegl',
         position: 'Marketing Management'
     }, {
         id: 2,
         img: 'szabo-viktor-1266895-unsplash-1024x1024.png',
-        fullStars: 3,
-        emptyStars: 2,
+        fullStars: [0, 1, 2],
+        emptyStars: [0, 1],
         review: 'When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper impenetrable follage on my trees, and but a thousand',
         author: 'Michkel Anegl',
         position: 'Marketing Management'
     }
+];
+
+export const clientlyData = [
+    'clienty-1.png', 'clienty-2.png', 'clienty-3.png', 'clienty-4.png', 'clienty-5.png'
 ];
