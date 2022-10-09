@@ -78,7 +78,7 @@ export const priceListData = [
         }
     },
     {
-        title: "Designing",
+        title: "Supporting",
         subtitle: "clients",
         price: "80",
         billing: "Per Month",

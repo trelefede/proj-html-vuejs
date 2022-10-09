@@ -39,7 +39,7 @@ export default {
 <style lang="scss" scoped>
 .blog{
     margin-top: 25rem;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 }
 
 #heading-content{
