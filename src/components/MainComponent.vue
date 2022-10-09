@@ -6,6 +6,7 @@
         <PriceListComponent />
         <BlogComponent />
         <TestimonialComponent />
+        <ClientlyComponent />
     </main>
 </template>
 
@@ -15,6 +16,7 @@ import StartProjectComponent from "@/components/StartProjectComponent.vue"
 import PriceListComponent from "@/components/PriceListComponent.vue"
 import BlogComponent from "@/components/BlogComponent.vue"
 import TestimonialComponent from "@/components/TestimonialComponent.vue"
+import ClientlyComponent from "@/components/ClientlyComponent.vue"
 
 export default {
     name: "MainComponent",
@@ -24,7 +26,8 @@ export default {
         // PortfolioComponent,
         PriceListComponent,
         BlogComponent,
-        TestimonialComponent
+        TestimonialComponent,
+        ClientlyComponent,
     }
 }
 </script>
