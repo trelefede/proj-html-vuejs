@@ -4,6 +4,7 @@
         <StartProjectComponent />
         <!-- <PortfolioComponent /> -->
         <PriceListComponent />
+        <BlogComponent />
     </main>
 </template>
 
@@ -11,6 +12,7 @@
 import OurServicesComponent from "@/components/OurServicesComponent.vue"
 import StartProjectComponent from "@/components/StartProjectComponent.vue"
 import PriceListComponent from "@/components/PriceListComponent.vue"
+import BlogComponent from "@/components/BlogComponent.vue"
 
 export default {
     name: "MainComponent",
@@ -18,8 +20,8 @@ export default {
         OurServicesComponent,
         StartProjectComponent,
         // PortfolioComponent,
-        PriceListComponent
-
+        PriceListComponent,
+        BlogComponent
     }
 }
 </script>
