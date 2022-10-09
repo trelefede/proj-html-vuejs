@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row">
-            <TestimonialCardComponent v-for="card in testimonialData" :key="card.id" :card="card" />
+            <TestimonialCardComponent class="col-4" v-for="card in testimonialData" :key="card.id" :card="card" />
         </div>
     </div>
 </template>
