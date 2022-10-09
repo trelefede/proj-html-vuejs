@@ -27,6 +27,9 @@ export default {
     border-radius: 1.75rem;
     box-shadow: 1px -1px 70px 0px rgb(24 24 24 / 22%);
     padding: 4rem 2rem;
+    position: absolute;
+    top: -25%;
+    transform: translateY(8%);
 };
 
 p{

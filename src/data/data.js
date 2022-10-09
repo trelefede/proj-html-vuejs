@@ -4,22 +4,21 @@ export const headerData = [
 
 export const footerData = [
     {
+        id: 0,
         title: "Quick Links",
         info: ["Services", "Contact", "Blog"]
     },
     {
+        id: 1,
         title: "Resources",
         info: ["Art Design", "Computer", "IT News", "Networking", "Web Security"]
     },
     {
+        id: 2,
         title: "Contact Us",
-        info: [
-            {
-                Address: "Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051",
-                Phone: "+99 (0) 101 0000 888",
-                Email: "info@yourdomain.com"
-            }
-        ]
+        address: "Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051",
+        phone: "+99 (0) 101 0000 888",
+        email: "info@yourdomain.com"
     }
 ];
 
