@@ -2,7 +2,7 @@
     <div class="container">
         
         <!-- heading section  -->
-        <div class="row">
+        <div class="row mt-4 pt-2">
             <div class="col-12 text-center">
                 <p class="mt-4 mb-2 ft-color-red">Our Services</p>
                 <h3 class="fw-light fs-1"><span class="fw-bold">What</span> We Do</h3>

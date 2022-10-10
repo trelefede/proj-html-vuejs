@@ -3,7 +3,7 @@
         <div class="container">
 
             <!-- heading section  -->
-            <div class="row">
+            <div class="row pt-4">
                 <div class="col-12 text-center">
                     <p class="mt-4 mb-2 ft-color-red">Price List</p>
                     <h3 class="fw-light fs-1 mb-3"><span class="fw-bold">Our</span> Pricing</h3>

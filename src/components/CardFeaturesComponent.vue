@@ -19,8 +19,14 @@ export default {
 
 <style lang="scss" scoped> 
 .ft-text-white{
-    
-   
+    color: white !important;
+    span{
+        color: white !important;
+        font-weight: 500;
+    }
+    p{
+        color:rgb(208, 208, 208)
+    }
 }
 
 p{

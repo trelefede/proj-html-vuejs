@@ -1,15 +1,17 @@
 <template>
     <div>
-        <div class="card ft-card position-relative text-center" :class="cards.title === 'Developing' ? 'ft-bg-light-red' : ''" >
+        <div class="card ft-card position-relative text-center" :class="cards.title === 'Developing' ? 'ft-bg-light-red' : 'color-black'" >
             <div class="card-body mx-4">
-                <h5 class="text-dark fs-2 fw-bold mt-4"> {{ cards.title }} </h5>
-                <h6 class="text-dark mb-4 mt-3"> {{ cards.subtitle.toUpperCase() }} </h6>
-                <span class="text-dark ft-price-type d-block mt-2">$</span>
-                <h6 class="ft-price text-dark fw-bold mb-2"> {{ cards.price }} </h6>
+                <h5 class="fs-2 fw-bold mt-4"> {{ cards.title }} </h5>
+                <h6 class="mb-4 mt-3"> {{ cards.subtitle.toUpperCase() }} </h6>
+                <span class="ft-price-type d-block mt-2">$</span>
+                <h6 class="ft-price fw-bold mb-2"> {{ cards.price }} </h6>
                 <span class="ft-price-bg" :class="cards.title === 'Developing' ? 'ft-bg-red' : ''" > {{ cards.price }} </span>
-                <span class="text-dark "> {{ cards.billing }} </span>
+                <span> {{ cards.billing }} </span>
                 <CardFeaturesComponent :feature="cards.features" class="my-4"/>
-                <a class="btn rounded-pill ft-btn ft-bg-light-red my-4" href="#">Order Now</a>
+                <a class="btn rounded-pill ft-btn my-4" :class="cards.title === 'Developing' ?'ft-bg-white' : 'ft-bg-light-red'" href="#">
+                    Order Now 
+                </a>
             </div>
         </div>
     </div>
@@ -42,6 +44,10 @@ export default {
     font-size: 5rem;
 }
 
+.ft-price-type{
+    padding-right: 7rem;
+}
+
 .ft-price-bg{
     color: #e9e9e9;
     font-size: 15rem;
@@ -51,8 +57,21 @@ export default {
     right: -0.7rem;
 }
 
+.color-black{
+    color: black;
+}
+
+.ft-bg-light-red{
+    background: linear-gradient(131deg, #b7246d 0%, #d4416c 50%, #f7616b 100%);
+}
 .ft-bg-red{
     color: #e9e9e93d !important;
+}
+
+.ft-bg-white{
+    background-color: white;
+    color:  #d4416c;
+    font-weight: 500;
 }
 
 h6{
