@@ -11,6 +11,7 @@
                 <CardFeaturesComponent :feature="cards.features" class="my-4"/>
                 <a class="btn rounded-pill ft-btn my-4" :class="cards.title === 'Developing' ?'ft-bg-white' : 'ft-bg-light-red'" href="#">
                     Order Now 
+                    <font-awesome-icon icon="fa-solid fa-arrow-right" />
                 </a>
             </div>
         </div>
@@ -80,5 +81,11 @@ h6{
 
 a{
     box-shadow: 1px -1px 70px 0px rgba(232, 43, 43, 0.483);
+    svg{
+        margin-left: 3rem;
+    }
+    &.ft-bg-light-red{
+        background: linear-gradient(179deg, #b7246d 0%, #d4416c 50%, #f7616b 100%);
+    }
 }
 </style>

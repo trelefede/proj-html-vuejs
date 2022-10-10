@@ -11,7 +11,7 @@
                     <div class="me-4">
                         <ul class="list-inline mt-3">
                             <li class="list-inline-item px-2" v-for="link in data" :key="link"> 
-                                <a href="#" class="text-white"> {{ link }} </a> 
+                                <a href="#" :class="link === 'Home' ? 'active' : 'text-white'" > {{ link }} </a> 
                             </li>
                         </ul>
                     </div>
@@ -48,5 +48,13 @@ export default {
 .ft-btn{
     padding-right: 1.3rem;
     padding-left: 1.3rem;
+}
+
+li{
+    a{
+        &.active{
+            color: #f6636a;
+        }
+    }
 }
 </style>
