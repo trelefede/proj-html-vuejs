@@ -2,7 +2,7 @@
     <main>
         <OurServicesComponent />
         <StartProjectComponent />
-        <!-- <PortfolioComponent /> -->
+        <PortfolioComponent />
         <PriceListComponent />
         <BlogComponent />
         <TestimonialComponent />
@@ -13,6 +13,7 @@
 <script>
 import OurServicesComponent from "@/components/OurServicesComponent.vue"
 import StartProjectComponent from "@/components/StartProjectComponent.vue"
+import PortfolioComponent from "@/components/PortfolioComponent.vue"
 import PriceListComponent from "@/components/PriceListComponent.vue"
 import BlogComponent from "@/components/BlogComponent.vue"
 import TestimonialComponent from "@/components/TestimonialComponent.vue"
@@ -23,7 +24,7 @@ export default {
     components: {
         OurServicesComponent,
         StartProjectComponent,
-        // PortfolioComponent,
+        PortfolioComponent,
         PriceListComponent,
         BlogComponent,
         TestimonialComponent,
