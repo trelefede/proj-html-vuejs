@@ -56,7 +56,7 @@ p{
     align-self: flex-start;
     margin: 0 1rem;
     svg{
-        color: black;
+        color: #0000007d;
         margin: 0;
         transform: translateY(1px);
         padding: 2px 7px;
@@ -72,8 +72,7 @@ p{
         margin: 0;
         font-size: 1.8rem;
         padding: 9px 13px;
-        transform: translateY(2px);
-        transform: translateX(1px);
+        transform: translate3d(1px, 2px, 10px);
     }
 }
 </style>

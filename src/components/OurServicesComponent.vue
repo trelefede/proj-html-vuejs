@@ -71,7 +71,7 @@ svg{
     flex-direction: column;
     justify-content: flex-end;
     color: white;
-    background: linear-gradient(0deg, rgba(1, 0, 10, 1) 0%, rgba(3, 10, 85, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(0deg, #090434 0%, #0815a3 100%, #000 100%);
     box-shadow: 1px -1px 70px 0px rgb(24 24 24 / 22%);
     border-radius: 2rem;
     .ft-card-img{
