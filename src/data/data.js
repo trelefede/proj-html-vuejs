@@ -45,6 +45,39 @@ export const ourServicesData = [
     },
 ];
 
+export const carouselData = [
+    {
+        id: 0,
+        title: 'Satisfy Poster',
+        subtitle: 'Digital Experience',
+        img: 'carousel-3.jpg',
+    },
+    {
+        id: 1,
+        title: 'Basket of Flower on table',
+        subtitle: 'Branding Strategy',
+        img: 'carousel-1.jpg',
+    },
+    {
+        id: 2,
+        title: 'Purinky Products',
+        subtitle: 'Digital Experience',
+        img: 'carousel-2.jpg',
+    },
+    {
+        id: 3,
+        title: 'Satisfy Poster',
+        subtitle: 'Branding Strategy',
+        img: 'carousel-3.jpg',
+    },
+    {
+        id: 4,
+        title: 'Basket of Flower on table',
+        subtitle: 'Branding Strategy',
+        img: 'carousel-4.jpg',
+    },
+];
+
 export const priceListData = [
     {
         title: "Designing",
