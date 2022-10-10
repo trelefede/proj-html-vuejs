@@ -51,4 +51,13 @@ img{
     top: -3rem;
     right: 11.3rem;
 }
+
+.ft-btn:hover{
+    &.ft-bg-light-red{
+        background: linear-gradient(270deg, rgba(30, 62, 131, 1) 0%, rgba(18, 113, 169, 1) 50%, rgba(6, 159, 204, 1) 100%) !important;
+    }
+    &.ft-bg-light-blue{
+        background: linear-gradient(90deg, rgba(183, 36, 109, 1) 0%, rgba(212, 65, 108, 1) 50%, rgba(247, 97, 107, 1) 100%);
+    }
+} 
 </style>
