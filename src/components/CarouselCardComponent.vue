@@ -22,12 +22,16 @@ export default {
     width: 23rem !important;
     border-radius: 1rem;
     border: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px -1px 70px 0px rgb(24 24 24 / 22%);
     img{
         border-radius: 1rem;
     }
     .card-title{
         text-align: start;
         font-size: 0.9rem;
+        font-weight: bold;
         margin-bottom: 0;
     }
     .card-text{

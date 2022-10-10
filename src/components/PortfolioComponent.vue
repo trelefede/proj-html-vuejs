@@ -20,7 +20,7 @@
         <CarouselComponent />
         <div class="row mt-4">
             <div class="col-12 ft-dot d-flex justify-content-center">
-               <font-awesome-icon icon="fa-solid fa-circle" />
+               <font-awesome-icon icon="fa-solid fa-circle" class="active" />
                <font-awesome-icon icon="fa-solid fa-circle" />
                <font-awesome-icon icon="fa-solid fa-circle" />
                <font-awesome-icon icon="fa-solid fa-circle" />
