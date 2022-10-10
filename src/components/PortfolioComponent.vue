@@ -1,12 +1,15 @@
 <template>
     <div id="portfolio">
-        <!-- heading section  -->
         <div class="container">
             <div class="row mb-4">
+
+                <!-- heading text -->
                 <div class="col-6">
                     <p class="mt-4 mb-2 ft-color-red">Portfolio</p>
                     <h3 class="fw-light fs-1 mb-3"><span class="fw-bold">latest</span> work</h3>
                 </div>
+
+                <!-- carousel controls -->
                 <div class="col-6 ft-arrows d-flex justify-content-end align-items-end">
                     <button>
                         <font-awesome-icon icon="fa-solid fa-arrow-left" />
@@ -17,7 +20,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- CAROUSEL SECTION -->
         <CarouselComponent />
+
+        <!-- carousel image displays -->
         <div class="row mt-4">
             <div class="col-12 ft-dot d-flex justify-content-center">
                <font-awesome-icon icon="fa-solid fa-circle" class="active" />

@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        <!-- heading section  -->
+
+        <!-- HEADING SECTION  -->
         <div class="row">
             <div class="col-12 text-center">
                 <p class="mt-4 mb-2 ft-color-red">Testimonial</p>
@@ -8,7 +9,11 @@
                 <p id="heading-content">When, while the lovely valley teems with vapour around meand the meridian sun strikes <br> the upper surface .</p>
             </div>
         </div>
+
+        <!-- CONTENT SECTION -->
         <div class="row">
+
+            <!-- cards component -->
             <TestimonialCardComponent class="col-4" v-for="card in testimonialData" :key="card.id" :card="card" />
         </div>
     </div>

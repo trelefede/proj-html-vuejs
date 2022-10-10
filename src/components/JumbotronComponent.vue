@@ -1,16 +1,22 @@
 <template>
     <div class="jumbotron">
         <div class="row align-items-center py-4">
+
+            <!-- left panel -->
             <div class="col-6 mt-4 pt-4">
                 <h2 class="fw-bold">Business Planning</h2>
                 <h2 class="fw-light">Digital Technology</h2>
                 <h2 class="fw-bold">Modern Solution !</h2>
                 <p class="py-4">When, while the lovely valley teems with vapour around <br> meand the meridian sun strikes the upper surface .</p>
+
+                <!-- user buttons -->
                 <div class="d-flex justify-content-start pt-2">
                     <a id="btn-try-now" class="btn rounded-pill ft-btn ft-bg-light-red me-4" href="#">Try It Now</a>
                     <a id="btn-explore-more" class="btn rounded-pill ft-btn ft-bg-light-blue" href="#">Explore More</a>
                 </div>
             </div>
+
+            <!-- right panel -->
             <div class="col-6 d-flex justify-content-end">
                 <img src="@/assets/images/header.png" alt="jumbotron planning">
             </div>

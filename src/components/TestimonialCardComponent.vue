@@ -1,12 +1,18 @@
 <template>
     <div class="card text-center">
         <div class="card-body mx-4 position-relative">
+
+            <!-- card image -->
             <img :src="require (`@/assets/images/${card.img}`)" :alt="card.author">
+
+            <!-- rating element with stars -->
             <div class="rating mb-4 position">
                 <p class="markers">//</p>
                 <font-awesome-icon class="full-star" icon="fa-solid fa-star" v-for="stars in card.fullStars" :key="stars" />
                 <font-awesome-icon icon="fa-regular fa-star" v-for="stars in card.emptyStars" :key="stars" />
             </div>
+
+            <!-- card content -->
             <p class="my-4"> {{ card.review }} </p>
             <p class="fw-bold text-dark mb-1"> {{ card.author }} </p>
             <p> {{ card.position }} </p>

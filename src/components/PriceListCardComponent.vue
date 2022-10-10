@@ -1,14 +1,23 @@
 <template>
     <div>
+        <!-- CARD -->
         <div class="card ft-card position-relative text-center" :class="cards.title === 'Developing' ? 'ft-bg-light-red' : 'color-black'" >
             <div class="card-body mx-4">
+
+                <!-- card header -->
                 <h5 class="fs-2 fw-bold mt-4"> {{ cards.title }} </h5>
                 <h6 class="mb-4 mt-3"> {{ cards.subtitle.toUpperCase() }} </h6>
+
+                <!-- card number -->
                 <span class="ft-price-type d-block mt-2">$</span>
                 <h6 class="ft-price fw-bold mb-2"> {{ cards.price }} </h6>
                 <span class="ft-price-bg" :class="cards.title === 'Developing' ? 'ft-bg-red' : ''" > {{ cards.price }} </span>
                 <span> {{ cards.billing }} </span>
+
+                <!-- card main component -->
                 <CardFeaturesComponent :feature="cards.features" class="my-4"/>
+
+                <!-- user button -->
                 <a class="btn rounded-pill ft-btn my-4" :class="cards.title === 'Developing' ?'ft-bg-white' : 'ft-bg-light-red'" href="#">
                     Order Now 
                     <font-awesome-icon icon="fa-solid fa-arrow-right" />

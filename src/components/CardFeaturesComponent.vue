@@ -1,4 +1,5 @@
 <template>
+    <!-- card content -->
     <div :class="feature.id === 1 ? 'ft-text-white' : '' ">
         <p><span>Creative</span> {{ feature.creative }} </p>
         <p><span>Vibrant</span> {{ feature.vibrant }} </p>

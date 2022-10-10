@@ -2,16 +2,26 @@
     <footer class="ft-bg-blue position-relative">
         
         <div class="container">
+
+            <!-- USER SUBSCRIBE COMPONENT in position absolute -->
             <SubscribeComponent />
+
+            <!-- FOOTER TOP -->
             <div class="row links">
+
+                <!-- left panel -->
                 <div class="col-3">
                     <img src="@/assets/images/white-logo-2.png" alt="logo">
                     <p class="pe-3">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper impenetrable</p>
                 </div>
+
+                <!-- right panel -->
                 <div class="col-3" v-for="links in data" :key="links.id">
                     <FooterLinksComponent :links="links" />
                 </div>
             </div>
+
+            <!-- FOOTER BOTTOM -->
             <SocialLinksComponent />
         </div>  
     </footer>

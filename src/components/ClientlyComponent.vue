@@ -1,6 +1,8 @@
 <template>
     <div class="container">
         <div class="row align-items-center">
+
+            <!-- create elements with v-for -->
             <div class="col cliently" v-for="customer in clientlyData" :key="customer">
                 <img :src="require (`@/assets/images/${customer}`)" :alt="customer">
             </div>

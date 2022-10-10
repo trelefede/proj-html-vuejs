@@ -1,16 +1,24 @@
 <template>
     <div id="footer" class="row align-items-center">
+
+        <!-- LEFT PANEL -->
         <div class="col-6 d-flex align-items-baseline">
             <font-awesome-icon icon="fa-regular fa-copyright" />
             <p>2020 Phlox. All Right Reserved.</p>
         </div>
+
+        <!-- RIGHT PANEL -->
         <div id="brands" class="col-6 d-flex justify-content-end">
+
+            <!-- social media icons -->
             <div class="d-flex text-white align-self-center">
                 <font-awesome-icon icon="fa-brands fa-instagram" />
                 <font-awesome-icon icon="fa-brands fa-linkedin-in" />
                 <font-awesome-icon icon="fa-brands fa-facebook-f" />
                 <font-awesome-icon icon="fa-brands fa-twitter" />
             </div>
+            
+            <!-- user interactions -->
             <div id="arrow-up"><font-awesome-icon icon="fa-solid fa-arrow-up" /></div>
             <div id="chat" class="align-self-center"><font-awesome-icon icon="fa-regular fa-comment" /></div>
         </div>

@@ -1,6 +1,9 @@
 <template>
-    <div>
+    <div> 
+        <!-- links column -->
         <h6> {{ links.title }} </h6>
+
+        <!-- links list -->
         <a href="#" class="d-flex direction-column" v-for="link in links.info" :key="link" > {{ link }} </a>
         <div :class="links.id === 2 ? '' : 'd-none'">
             <p class="mt-4 pt-2"><span>Address:</span> {{ links.address }} </p>

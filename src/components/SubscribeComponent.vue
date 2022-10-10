@@ -1,10 +1,14 @@
 <template>
     <div class="container  ft-bg-light-red subscribe">
         <div class="row align-items-center px-3">
+
+            <!-- LEFT PANEL -->
             <div class="col-6">
                 <h3 class="fw-bold text-white">We Offer Awesome Services</h3>
                 <p class="text-white">When, while the lovely valley teems with vapour around meand meridian sun strikes upper surface .</p>
             </div>
+
+            <!-- RIGHT PANEL -->
             <div class="col-6 text-end d-flex justify-content-end">
                 <div id="input-mail" class="d-flex justify-content-between">
                     <input class="fs-6 " type="text" placeholder="Enter Your Email Address">

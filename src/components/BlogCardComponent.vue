@@ -1,7 +1,10 @@
 <template>
     <div>
+        <!-- card -->
         <div class="card ft-card" :class="card.id  === 0 ? 'card-large' : 'ft-bg-blue'">
             <div class="card-body py-4 my-3" :class="card.id  === 0 ? 'card-large-body' : ''">
+                
+                <!-- card header -->
                 <div>
                     <div class="heading d-flex">
                         <p> {{ card.date }} </p>
@@ -10,9 +13,13 @@
                         </svg>
                         <p>by {{ card.author }} </p>
                     </div>
+
+                    <!-- card main -->
                     <h5 class="my-3"> {{ card.title }} </h5>
                     <p> {{ card.content }} </p>  
                 </div>
+
+                    <!-- card button -->
                 <div>
                     <a class="btn rounded-pill ft-btn mt-2" href="#">Read More</a>
                 </div>
@@ -63,6 +70,10 @@ export default {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 0.8rem;
+}
+
+.ft-bg-blue{
+    background: linear-gradient(167deg, #01000a 0%, #030a55 100%, #000 100%);
 }
 .ft-card{
     border-radius: 1.75rem;
