@@ -39,4 +39,11 @@ export default {
         font-size: 0.9rem;
     }
 }
+
+.card:hover{
+    background: linear-gradient(168deg, #b7246d 0%, #d4416c 50%, #f7616b 100%);
+    .card-title{
+        color: white !important;
+    }
+}
 </style>
